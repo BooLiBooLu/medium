@@ -1,0 +1,226 @@
+html{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    font-family: "sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header{
+    width: 1135.33px;  
+    height: 65px; 
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+nav{
+    width: 261.79px; 
+    height: 55.83px; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+/*name*/
+.wrap{
+    /* width: 1135.330px;
+    height: 65px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+main .wrap{
+    border-bottom: 1px solid lightgray;
+}
+
+
+.heading{
+    width: 873.54px; 
+    height: 32px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+#logo{
+    /* width * height */
+    width: 206.68px; 
+    height: 32px; 
+    padding-right: 16px;
+}
+
+#greeting{
+    width: auto; 
+    height: 27.73px; 
+    padding-left: 16px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid lightgray;
+    
+}
+
+.btn{
+    font-size: 14px;
+    border: 1px solid rgba(41, 41, 41, 1);
+    border-radius: 5px;
+    padding: 4px 12px 6px;
+    text-decoration: none;
+}
+
+.tbtn{
+    background: 0;
+    display: inline-block;
+    border-color: rgba(26, 137, 23, 1);
+    color: rgba(26, 137, 23, 1);
+    box-sizing: border-box;
+
+}
+
+/* #upgradeBtn :hover{
+    fill: rgba(8, 8, 8, 1);
+} */
+
+.col{
+    width: 357.104px; 
+    height: 516px;  
+    padding: 0px 16px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.author{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 500;
+    color:rgba(41, 41, 41, 1);
+    
+}
+
+/*tittle h2*/
+.title h2{
+    margin: 0px;
+    font-size: 22px;
+    max-height: 56px;
+    color:rgba(41, 41, 41, 1);
+    font-weight: 750;
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.ctext .title h2{
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 20px;
+    box-sizing: inherit;
+}
+
+
+.intro p{
+    font-size: 18px;
+    line-height: 28px;
+    max-height: 84px;
+    margin: 0px;
+    letter-spacing: -0.003em;
+    font-family: charter, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgba(41, 41, 41, 1);
+    box-sizing: inherit;
+}
+
+.mark{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgba(117, 117, 117, 1);
+    line-height: 20px;
+    font-weight: 400;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+.finfo{
+    color: rgba(26, 137, 23, 1);
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+
+
+.follow{
+    /* display: flex;
+    flex-direction: row; */
+    border-left: 1px solid lightgray;
+    padding-left: 32px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+
+.fname{
+    width: 64px;
+    height: 16px;
+    font-size: 11px;
+    max-width: 64px;
+    text-align: center;
+    margin-top: 5px;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.ftitle{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    /* margin: 0; */
+}
+
+.topic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgray;
+    padding: 14px 0px;
+    margin: 14px 0px;
+}
+
+.ttitle{
+    font-weight: bold;
+    font-family: inherit;
+
+}
+
